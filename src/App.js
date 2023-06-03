@@ -9,6 +9,8 @@ import ShowRoom from './component/ShowRoom';
 import Footer from './component/Footer';
 import HelpAndSuport from './component/HelpAndSuport';
 import Contact from './component/Contact';
+import Read from './component/Read';
+import Update from './component/Update';
 import { Routes, Route } from 'react-router-dom'
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           <Route path="/showroom" element={<ShowRoom />} />
           <Route path="/helpandsuport" element={<HelpAndSuport />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/read" element={<Read />} />
+          <Route path="/update" element={<Update />} />
         </Routes>
         <Footer />
       </div>

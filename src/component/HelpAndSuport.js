@@ -15,8 +15,8 @@ const HelpAndSuport = () => {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                         </Card.Text>
-                        <Card.Link href="www.facebook.com">facebook</Card.Link>
-                        <Card.Link href="www.google.com">Google</Card.Link>
+                        <Card.Link href="https://www.facebook.com">facebook</Card.Link>
+                        <Card.Link href="https://www.google.com">Google</Card.Link>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }} className="support">
@@ -27,8 +27,8 @@ const HelpAndSuport = () => {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                         </Card.Text>
-                        <Card.Link href="www.facebook.com">facebook</Card.Link>
-                        <Card.Link href="www.google.com">Google</Card.Link>
+                        <Card.Link href="https://www.facebook.com">facebook</Card.Link>
+                        <Card.Link href="https://www.google.com">Google</Card.Link>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }} className="support">
@@ -39,8 +39,8 @@ const HelpAndSuport = () => {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                         </Card.Text>
-                        <Card.Link href="www.facebook.com">facebook</Card.Link>
-                        <Card.Link href="www.google.com">Google</Card.Link>
+                        <Card.Link href="https://www.facebook.com">facebook</Card.Link>
+                        <Card.Link href="https://www.google.com">Google</Card.Link>
                     </Card.Body>
                 </Card>
 

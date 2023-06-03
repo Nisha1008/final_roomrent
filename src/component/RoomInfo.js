@@ -2,17 +2,17 @@ import React from 'react'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
-
 import './RoomInfo.css'
+
 const RoomInfo = () => {
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [contact, setContact] = useState('');
-    const [city, setCity] = useState('');
-    const [img, setImg] = useState('');
-    const [avail, setAvail] = useState('');
-    const [price, setPrice] = useState('');
-    const [facility, setFacility] = useState('');
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [contact, setContact] = useState("");
+    const [city, setCity] = useState("");
+    const [img, setImg] = useState("");
+    const [avail, setAvail] = useState("");
+    const [price, setPrice] = useState("");
+    const [facility, setFacility] = useState("");
     const history = useNavigate();
 
     const header = { "Access-Control-Allow-Origin": "*" };

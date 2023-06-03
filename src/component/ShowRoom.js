@@ -3,13 +3,14 @@ import './showroom.css'
 import axios from 'axios'
 import { useState } from 'react'
 import { useEffect } from 'react'
+import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 // import { Link } from 'react-router-dom'
 const ShowRoom = () => {
     const [data, setData] = useState([]);
 
     function getData() {
-        axios.get(
-            'https://64510e3ca3221969115976a1.mockapi.io/registerRoonInfo')
+        axios.get("https://64510e3ca3221969115976a1.mockapi.io/registerRoonInfo")
             .then((res) => {
                 console.log(res.data);
                 setData(res.data);
@@ -22,6 +23,14 @@ const ShowRoom = () => {
     return (
         <>
             <form>
+                <div className="d-flex justify-content-between m-2">
+                    <Link to="/read">
+                        <Button variant="primary" size="lg">
+                            View all Data
+                        </Button>
+                    </Link>
+                </div>
+
                 <div className='container row '>                {
                     data.map((eachData) => {
                         return (
@@ -37,8 +46,6 @@ const ShowRoom = () => {
                                             {eachData.name}
                                         </div>
                                     </div>
-
-
                                     <div className="row mb-3">
 
                                         <label className="col-sm-4">Email</label>

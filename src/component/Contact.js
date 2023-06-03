@@ -8,12 +8,12 @@ const Contact = () => {
         <>
             <form action="">
                 <div className="contact">
-                    <h3>Contact us</h3>
+                    <h3><b>Contact us</b></h3>
                     <hr />
                     <label>Tell us what we can help with:</label><br />
                     <input type="text" placeholder='Example:how can i register' />
-                    <h6>5 charater required</h6>
-                    <Button variant="outline-primary">Next</Button>{' '}
+                    <hr />
+                    <Button variant="outline-primary">Next</Button>
 
                     <hr />
                     Resources
