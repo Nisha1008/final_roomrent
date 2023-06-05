@@ -13,8 +13,9 @@ const Header = () => {
                     <Navbar.Brand href="Home" style={{ fontSize: 40 }}>Room Rent</Navbar.Brand>
                     <Nav className="me-auto my-2 my-lg-0 fs-4">
                         <Nav.Link href="Home">Home</Nav.Link>
-                        <Nav.Link href="Login">Login</Nav.Link>
                         <Nav.Link href="Signup">SignUp</Nav.Link>
+                        <Nav.Link href="Login">Login</Nav.Link>
+
                         <Nav.Link href="ShowRoom">ShowRoom</Nav.Link>
                         <Nav.Link href="RoomInfo">AddRoom</Nav.Link>
                         <Nav.Link href="HelpAndSuport">Help and Support</Nav.Link>

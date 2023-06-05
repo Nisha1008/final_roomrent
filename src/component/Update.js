@@ -23,7 +23,7 @@ const Update = () => {
     }, [])
     const handleUpdate = (e) => {
         e.preventDefault();
-        console.log("click")
+        alert("updated sucessfully  🥳🥳🥳🥳")
         axios.put(`https://64510e3ca3221969115976a1.mockapi.io/registerRoonInfo/${id}`
             , {
                 name: name,
