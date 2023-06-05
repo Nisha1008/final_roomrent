@@ -18,7 +18,7 @@ const RoomInfo = () => {
     const header = { "Access-Control-Allow-Origin": "*" };
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log("clicked");
+        alert("data added succesfully 😇");
         axios.post(
             'https://64510e3ca3221969115976a1.mockapi.io/registerRoonInfo', {
             name: name, email: email, contact: contact, city: city, img: img, avail: avail, price: price, facility: facility,

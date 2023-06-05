@@ -12,6 +12,8 @@ const Login = () => {
 
     })
     // const [data, setData] = useState([])
+
+
     console.log(inpval);
     const getData = (e) => {
         // console.log(e.target.value)
